@@ -1,13 +1,20 @@
 \documentclass{article}
 \usepackage{amsmath}
 \begin{document}
+
+\title{Report \\
+HW2 LaTeX Remake}
+\author{Jamie Stankiewiz}
+\date{10/31/16}
+\maketitle
+
 \SweaveOpts{concordance=TRUE}
+
 
 <<>>=
 load("~/pandoc-test/stat159/stat159-fall2016-hw02/data/regression.RData")
 library(xtable)
 @
-
 
 
 \section{Abstract}
