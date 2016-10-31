@@ -2,7 +2,15 @@
 \usepackage{amsmath}
 \usepackage{Sweave}
 \begin{document}
+
+\title{Report \\
+HW2 LaTeX Remake}
+\author{Jamie Stankiewiz}
+\date{10/31/16}
+\maketitle
+
 \input{report-concordance}
+
 
 \begin{Schunk}
 \begin{Sinput}
@@ -10,7 +18,6 @@
 > library(xtable)
 \end{Sinput}
 \end{Schunk}
-
 
 
 \section{Abstract}
@@ -110,7 +117,7 @@ F-statistic: 312.1 on 1 and 198 DF,  p-value: < 2.2e-16
 
 \section{Results}
 
-By looking at the data table of the coefficients of the regression line, we see that estimated coefficient, $\hat \beta_0$ is an estimate with a standard error of .46.  From the t-test, we find that the both t-statistics have p-values of less than <<0.00001. Therefore, we can conclude that both $\hat \beta_0$ and $\hat \beta_0$ are not equal to 0. This means that there is an actual relationship between the 2 categories.
+By looking at the data table of the coefficients of the regression line, we see that estimated coefficient, $\hat \beta_0$ is an estimate with a standard error of .46.  From the t-test, we find that the both t-statistics have p-values of less than $<<0.00001$. Therefore, we can conclude that both $\hat \beta_0$ and $\hat \beta_0$ are not equal to 0. This means that there is an actual relationship between the 2 categories.
 Looking at the second table, we find the value of the standard error of the residuals is 3.259. The $R^2$ statistic, is known as the 'adjusted R-squared' value, represents the percentage of the linear regression line is actually due to the 2 predictors. The $F$-statistic, we find is 312.145, is generated from the ANOVA test to determine whether the means of the 2 categories are the same.  From the more interesting p-value, $2.2 \times 10^-16$ concludes that the means of TV and Sales are differnet.
 
 
